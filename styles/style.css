@@ -21,7 +21,12 @@
   z-index: 1;
 }
 
-.header__logo_place_header {
+.logo {
+  width: 183px;
+  height: 35px;
+}
+
+.logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
@@ -260,11 +265,66 @@
   z-index: -1;
 }
 
+.footer {
+  background-color: #000;
+  min-height: 350px;
+}
+
+.footer__column_content_copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 711px;
+}
+
+.footer__author {
+  color: white;
+  margin: 18px 0;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+}
+
+.footer__column-heading {
+  color: white;
+  margin: 0;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.footer__column-links {
+  margin: 20px 0 16px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: normal;
+}
+
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+  margin: 0;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto 40px;
+  padding: 60px;
+}
+
 .kek {
-  background-size: cover;
+  display: inline-block;
+  margin: 0 0 0 10px;
 }
 
 /* Границы для дебаггинга и разработки
-div, h1, h2, h3, header, p, a, img, main, section, footer, table, tr, td {
+div, h1, h2, h3, h4, header, p, a, img, main, section, footer, table, tr, td {
   border: 1px red solid;
 } */
