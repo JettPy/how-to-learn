@@ -17,7 +17,7 @@
   /* выше установили ограничения для секции */
 }
 
-.small-display {
+.front {
   z-index: 1;
 }
 
@@ -128,14 +128,6 @@
   font-weight: bold;
 }
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
-
 .section-title {
   margin: 100px auto 20px;
   text-align: center;
@@ -187,6 +179,55 @@
 
 .table__text_source {
   margin-top: 20px;
+}
+
+.feynman {
+  text-align: center;
+  position: relative;
+  height: 790px;
+}
+
+.feynman__title {
+  width: 648px;
+  margin: auto;
+  font-size: 120px;
+  line-height: 1.15;
+  font-weight: bold;
+}
+
+.feynman__subtitle {
+  margin: 70px 0 0;
+  font-size: 36px;
+  line-height: 51px;
+  font-weight: normal;
+}
+
+.feynman__link {
+  text-decoration: none;
+  color: #2f80ed;
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  font-size: 36px;
+  line-height: 51px;
+  font-weight: normal;
+}
+
+.feynman__image {
+  height: 637px;
+  width: 867px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* и элемента с модификатором вида ключ-значение */
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
 }
 
 /* Границы для дебаггинга и разработки 
