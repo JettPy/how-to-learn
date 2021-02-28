@@ -87,7 +87,6 @@
 /*   description   */
 
 .description {
-  min-height: 400px;
   padding: 100px 0 0;
   display: flex;
 }
