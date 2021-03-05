@@ -280,17 +280,17 @@
 /*   footer   */
 
 .footer {
+  min-height: 350px;
+  display: flex;
   background-color: #1f1f1f;
 }
 
 .footer__columns {
-  min-height: 350px;
+  min-height: 250px;
   width: 90%;
-  margin: 0 auto;
-  padding: 60px 0 40px;
+  margin: 60px auto 40px;
   display: flex;
   justify-content: space-between;
-  box-sizing: border-box;
 }
 
 .footer__column_content_copyright {
