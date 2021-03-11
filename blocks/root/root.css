@@ -1,21 +1,6 @@
 .page {
   min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-
-.list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-/* Границы для дебаггинга и разработки
-div, h1, h2, h3, h4, header, p, a, img, main, section, footer, table, tr, td, ul, li, cite, blockquote {
-  border: 1px red solid;
-}*/
