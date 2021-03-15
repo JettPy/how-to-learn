@@ -1,4 +1,6 @@
 .link {
+  -webkit-transition: opacity 1s linear;
+  -o-transition: opacity 1s linear;
   transition: opacity 1s linear;
 }
 
