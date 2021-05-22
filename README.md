@@ -9,3 +9,7 @@
 В данной работе использовались:
 * HTML5
 * CSS3
+
+### Прототип
+
+* [Ссылка на хостинг GitHub Pages](https://jettpy.github.io/how-to-learn/)
